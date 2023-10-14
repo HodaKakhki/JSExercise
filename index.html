@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./Css/style.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
 </head>
 
 <body>
@@ -16,11 +17,11 @@
 
         <form action="#">
             <div class="input_box">
-                <input type="text" placeholder="username" required>
+                <input type="text" placeholder="username" class="username" required>
                 <div class="icon"><i class="fas fa-user"></i></div>
             </div>
             <div class="input_box">
-                <input type="password" placeholder="password" required>
+                <input type="password" placeholder="password" class="password" required>
                 <div class="icon"><i class="fas fa-lock"></i></div>
             </div>
             <div class="option_div">
@@ -33,14 +34,17 @@
                 </div>
             </div>
             <div class="input_box button">
-                <input type="submit" value="Login">
+                <button type="submit" value="Login" onclick="validationLogin()">Login</button>
             </div>
             <div class="sign_up">
                 Not a member? <a href="#">Signup now</a>
             </div>
         </form>
     </div>
-    <link rel="stylesheet" href="./js/index.js">
+    <div class="modal">
+        لطفا اطلاعات درست را وارد کنید
+    </div>
+    <script src="./js/index.js"></script>
 
 </body>
 
