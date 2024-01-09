@@ -7,8 +7,8 @@ const validationLogin = () => {
     let useNameValue=userNameInput.value
     let passwordValue = passwordInput.value
     
-    if (useNameValue.length < 4 || passwordValue.length < 8) {
- modal.style.background = 'rgb(233,28,28'
+    if (useNameValue.length < 12 || passwordValue.length < 8) {
+ modal.style.background = 'rgb(233,28,28)'
         modal.innerHTML='لطفا اطلاعات را درست وارد کنید'
         modal.style.display = 'inline'
        
@@ -21,5 +21,4 @@ const validationLogin = () => {
      setTimeout(() => {
            modal.style.display='none'
         }, 3000);
-    console.log(useNameValue,passwordValue);
 }
