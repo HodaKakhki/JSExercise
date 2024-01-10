@@ -31,7 +31,7 @@ form .input_box {
   height: 50px;
   width: 100%;
   position: relative;
-  margin-top: 15px;
+  margin-top: 40px;
 }
 .input_box input {
   height: 100%;
@@ -108,4 +108,9 @@ form a:hover {
   position: absolute;
   display: none;
   z-index: 999;
+}
+
+span {
+  display: none;
+  padding: 8px;
 }
