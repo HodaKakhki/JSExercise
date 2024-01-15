@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
+</head>
+<style>
+    body {
+        background-image: url("https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?w=826&t=st=1705229363~exp=1705229963~hmac=36b98750b0479a7ba4bad56da47135be4f3efe4cc16a66b938651d880622370b");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .fnameInput,
+    .lnameInput,
+    .phoneInput,
+    .emailInput,
+    .countrySelect,
+    .citySelect {
+        width: 80%;
+        height: 40px;
+        border-radius: 5px;
+        border: 0px;
+        padding: 0px 10px;
+    }
+
+    .btn {
+        height: 30px;
+        border-radius: 5px;
+        border: 0px;
+        padding: 0px 20px;
+        background-color: rgb(255, 217, 0);
+        margin-top: 40px;
+    }
+
+    .box {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .container {
+        margin-top: 100px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 5px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="col-md-6 box">
+            <input class="fnameInput" placeholder="FirstName" />
+        </div>
+        <div class="col-md-6 box">
+            <input class="lnameInput" placeholder="LastName" />
+        </div>
+        <div class="col-md-6 box">
+            <input class="phoneInput" placeholder="PhoneNumber" />
+        </div>
+        <div class="col-md-6 box">
+            <input class="emailInput" placeholder="Email" />
+        </div>
+        <div class="col-md-6 box">
+            <select class="countrySelect" name="country">
+                <option class="Please Select">Please Select ...</option>
+                <option class="option" value="Iran">Iran</option>
+                <option class="option" value="Turkey">Turkey</option>
+                <option class="option" value="Us">United State</option>
+            </select>
+        </div>
+        <div class="col-md-6 box">
+            <select class="citySelect">
+                <option value="-1">Please Select City ...</option>
+
+            </select>
+        </div>
+        <div class="col-md-6 box">
+            <button class="btn">Book a ticket</button>
+        </div>
+    </div>
+    <script src='Ticketproject.js'></script>
+
+</body>
+
+</html>
