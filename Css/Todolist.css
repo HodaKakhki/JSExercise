@@ -1,0 +1,68 @@
+body {
+  background: #80e0cf;
+}
+.container {
+  max-width: 400px;
+  padding-top: 100px;
+  margin: 0 auto;
+  width: 100%;
+}
+.search i {
+  position: absolute;
+}
+.search {
+  position: relative;
+}
+.icon {
+  padding: 10px;
+  left: 0;
+}
+.input-field {
+  text-align: center;
+}
+
+input[type="text"],
+input[type="text"]:focus {
+  color: #fff;
+  border: none;
+  background: rgba(24, 13, 13, 0.3);
+  max-width: 400px;
+  font-size: 12px;
+}
+.list-group-item,
+.todos li {
+  background: #51907c;
+  margin: 0 auto;
+  width: 100%;
+  padding: 12px;
+  border-bottom: 1px solid pink;
+}
+.delete {
+  cursor: pointer;
+}
+
+.filtered {
+  display: none !important;
+}
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.add {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding-left: 40px;
+}
+
+.form-control {
+  padding: 12px;
+  width: 100%;
+  margin: 0 auto;
+}
+.text-light {
+  width: 100%;
+}
